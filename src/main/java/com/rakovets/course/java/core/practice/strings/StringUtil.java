@@ -71,17 +71,17 @@ public class StringUtil {
         return arrayOfEqualParts;
     }
 
-    public String[] getNumberOfWords(String str1){
+    public String[] getNumberOfWords(String str1) {
         str1 = str1.trim();
         return str1.split("\\s+");
     }
 
-    public String getInitials(String str1){
+    public String getInitials(String str1) {
         String[] b = str1.split(" ");
         return b[0].substring(0, 1).toUpperCase(Locale.ROOT).concat(b[1].substring(0, 1).toUpperCase(Locale.ROOT));
     }
 
-    public String getAllDigit(String str){
+    public String getAllDigit(String str) {
         StringBuilder digit = new StringBuilder();
         char[] charArray = str.toCharArray();
         for (char c : charArray) {

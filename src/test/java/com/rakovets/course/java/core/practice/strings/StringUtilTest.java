@@ -54,7 +54,6 @@ public class StringUtilTest {
         Assertions.assertEquals("123null", actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testIndexSearch() {
         //GIVEN
@@ -65,7 +64,6 @@ public class StringUtilTest {
         Assertions.assertEquals(1, actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testSameStrings() {
         //GIVEN
@@ -76,7 +74,6 @@ public class StringUtilTest {
         Assertions.assertTrue(actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testModifiedString() {
         //GIVEN
@@ -97,7 +94,6 @@ public class StringUtilTest {
         Assertions.assertEquals("snow", actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testSubString() {
         //GIVEN
@@ -118,7 +114,6 @@ public class StringUtilTest {
         Assertions.assertEquals(" found out tha", actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testGetSmile() {
         //GIVEN
@@ -139,7 +134,6 @@ public class StringUtilTest {
         Assertions.assertEquals(":)summer :))())::)(::is:):finish((:)(snow", actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testGetStartEndAboutWord() {
         //GIVEN
@@ -170,7 +164,6 @@ public class StringUtilTest {
         Assertions.assertTrue(actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testGetNumberOfVowelsInAWord() {
         //GIVEN
@@ -191,7 +184,6 @@ public class StringUtilTest {
         Assertions.assertEquals(11, actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testGetNumberOfPunctuationMarks() {
         //GIVEN
@@ -222,7 +214,6 @@ public class StringUtilTest {
         Assertions.assertEquals(0, actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testGetIsPalindrome() {
         //GIVEN
@@ -243,7 +234,6 @@ public class StringUtilTest {
         Assertions.assertTrue(actual);
     }
 
-    /////////////////////////////////////////////////////////////////////////
     @Test
     void testGetBreakAString() {
         //GIVEN
@@ -273,7 +263,6 @@ public class StringUtilTest {
         //THEN
         Assertions.assertArrayEquals(new String[]{"ab", "cd", "ef", "gw"}, actual);
     }
-    /////////////////////////////////////////////////////////////////////////
 
     @Test
     void testGetNumberOfWords() {
@@ -304,7 +293,6 @@ public class StringUtilTest {
         //THEN
         Assertions.assertArrayEquals(new String[]{""}, actual);
     }
-    /////////////////////////////////////////////////////////////////////////
 
     @Test
     void testGetInitials() {
@@ -325,7 +313,7 @@ public class StringUtilTest {
         //THEN
         Assertions.assertEquals("AO", actual);
     }
-    /////////////////////////////////////////////////////////////////////////
+
     @Test
     void testGetAllDigit() {
         //GIVEN
